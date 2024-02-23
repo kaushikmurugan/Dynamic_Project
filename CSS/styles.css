@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.content{
+    margin-top: 70px;
+}
+
+img {
+    min-width: 100px;
+    min-height: 100px;
+}
+
+nav {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.font {
+    font-family: "Great Vibes", serif;
+    font-size: xx-large;
+}
+
+.mainlander {
+    width: 100%;
+    background-color: black;
+}
+
+.lander {
+    height: 25%;
+    width: 80%;
+}
+
+.fig {
+    border-radius: 20px;
+}
+
+.sublander {
+    height: 10%;
+    width: 20%;
+}
+
+.getfrom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.apple,
+.android {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.line {
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.apple:hover,
+.android:hover {
+    background-color: white;
+}
+
+.apple:hover p,
+.apple:hover h3,
+.apple:hover i {
+    color: black;
+}
+
+.android:hover p,
+.android:hover h3,
+.android:hover i {
+    color: black;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}

@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+img {
+    min-width: 100px;
+    min-height: 100px;
+}
+
+nav {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.font {
+    font-family: "Great Vibes", serif;
+    font-size: xx-large;
+}
